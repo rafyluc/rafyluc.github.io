@@ -1,0 +1,2014 @@
+/* line 1, ../scss/globals/_headers.scss */
+.content-border-content > .panel-pane > h2.pane-title {
+  margin-bottom: 0;
+}
+
+/* line 5, ../scss/globals/_headers.scss */
+.content-border-content h2:first-child {
+  margin-bottom: 0;
+}
+
+/*  provide a simple mechanism for content editors to apply a border and padding to images in their content. */
+/* line 2, ../scss/elements/_article.scss */
+.field-name-body img.padded-border {
+  border: 1px solid #666;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* line 1, ../scss/elements/_breadcrumbs.scss */
+#breadcrumbs ol {
+  padding-top: 0;
+}
+
+/*  note that some of this code comes from the medium card scss, and is what we should use, but we have not yet adjusted the small card markup in the media section to use it */
+/* Ensures height of promo-card full-size images to prevent breaking layouts */
+/* line 6, ../scss/elements/_small-card.scss */
+.node-small-card,
+.small-card {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+/* line 13, ../scss/elements/_small-card.scss */
+.node-small-card div.file img,
+.small-card div.file img {
+  width: 290px;
+  height: 163px;
+}
+/* line 19, ../scss/elements/_small-card.scss */
+.node-small-card .field-name-field-media-type,
+.small-card .field-name-field-media-type {
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* line 26, ../scss/elements/_small-card.scss */
+.small-card-content-meta .gs-container > * {
+  padding-top: 0px;
+}
+
+/* line 30, ../scss/elements/_small-card.scss */
+.view-frontpage-promos .content-border {
+  margin-top: 0px;
+}
+
+/* line 5, ../scss/elements/_medium-card.scss */
+.medium-card {
+  overflow: hidden;
+}
+
+/* line 9, ../scss/elements/_medium-card.scss */
+.medium-card-media img {
+  width: 290px;
+  height: 163px;
+}
+
+/* line 14, ../scss/elements/_medium-card.scss */
+.medium-card-content {
+  padding-bottom: 5px;
+}
+/* line 17, ../scss/elements/_medium-card.scss */
+.medium-card-content .medium-card-content-content {
+  height: 121px;
+}
+/* line 20, ../scss/elements/_medium-card.scss */
+.medium-card-content .medium-card-content-content h4 {
+  margin-bottom: 10px;
+}
+/* line 23, ../scss/elements/_medium-card.scss */
+.medium-card-content .medium-card-content-content h4 a {
+  text-decoration: none;
+}
+/* line 29, ../scss/elements/_medium-card.scss */
+.medium-card-content .field-name-field-body-small {
+  max-height: 4.2em;
+  overflow: hidden;
+}
+/* line 34, ../scss/elements/_medium-card.scss */
+.medium-card-content .field-name-field-category {
+  text-align: right;
+  white-space: nowrap;
+  float: right;
+}
+/* line 40, ../scss/elements/_medium-card.scss */
+.medium-card-content .icon-posted {
+  margin-left: -6px;
+  white-space: nowrap;
+}
+
+/* line 45, ../scss/elements/_medium-card.scss */
+.medium-card-content-meta .gs-container > * {
+  padding-top: 0px;
+}
+
+/* Ensures height of promo-card full-size images to prevent breaking layouts */
+/* line 50, ../scss/elements/_medium-card.scss */
+.node-medium-card {
+  width: 300px;
+  height: 350px;
+}
+
+/* line 54, ../scss/elements/_medium-card.scss */
+.view-frontpage-cards .content-border {
+  margin-top: 0px;
+}
+
+/* line 2, ../scss/elements/_news-recent.scss */
+.view-news-recent .node-teaser {
+  border-top: 1px solid #F9F9FA;
+  border-bottom: 1px solid #D1D3D4;
+}
+/* line 7, ../scss/elements/_news-recent.scss */
+.view-news-recent .node-teaser:first-child {
+  border-top: 0;
+}
+/* line 11, ../scss/elements/_news-recent.scss */
+.view-news-recent .node-teaser:last-child {
+  border-bottom: 0;
+}
+
+/*  move into lol-kit  */
+/* line 2, ../scss/elements/_frontpage-rotator.scss */
+.dark-background {
+  color: #FFFFFF;
+}
+/* line 5, ../scss/elements/_frontpage-rotator.scss */
+.dark-background a.btn-large-link:link, .dark-background a.btn-large-link:visited {
+  color: #FFFFFF;
+  border: none;
+}
+/* line 9, ../scss/elements/_frontpage-rotator.scss */
+.dark-background a.btn-large-link:hover, .dark-background a.btn-large-link:active {
+  color: #A6E3E3;
+}
+
+/* line 13, ../scss/elements/_frontpage-rotator.scss */
+.generic-wrapper {
+  position: relative;
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* line 18, ../scss/elements/_frontpage-rotator.scss */
+.gs-overflow {
+  overflow: visible;
+}
+
+/* line 21, ../scss/elements/_frontpage-rotator.scss */
+#header,
+#footer,
+.section-wrapper {
+  min-width: 1000px;
+}
+
+/* line 26, ../scss/elements/_frontpage-rotator.scss */
+.fluid-width-video-wrapper {
+  padding-top: 56.25% !important;
+}
+
+/*  since the rotator is position:absolute, we need a spacer to push down the page content */
+/* line 33, ../scss/elements/_frontpage-rotator.scss */
+.content-promo-spacer {
+  height: 340px;
+}
+
+/* line 37, ../scss/elements/_frontpage-rotator.scss */
+#content-promo {
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+  top: -272px;
+  height: 1080px;
+  margin-bottom: -832px;
+  overflow: hidden;
+}
+/* line 46, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-rotator {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 1080px;
+  z-index: 0;
+}
+/* line 53, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-state-container {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 500px;
+  height: 55px;
+  width: 1000px;
+  margin-left: -500px;
+}
+/* line 63, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-state-container .content-promo-progress {
+  display: block;
+  position: relative;
+  top: 22px;
+  z-index: 0;
+  width: 0px;
+  /* width is modified by the cycle transition */
+  height: 20px;
+  margin: 0 auto;
+  background: #ffc200;
+  -moz-border-radius: "20px 20px 0 0";
+  -webkit-border-radius: "20px";
+  border-radius: "20px 20px 0 0";
+  -moz-box-shadow: "0 -3px 4px 0px rgba(255, 220, 150, 0.3)";
+  -webkit-box-shadow: "0 -3px 4px 0px rgba(255, 220, 150, 0.3)";
+  box-shadow: "0 -3px 4px 0px rgba(255, 220, 150, 0.3)";
+}
+/* line 76, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-state-container .content-promo-pager {
+  position: absolute;
+  width: 200px;
+  display: block;
+  z-index: 5;
+  height: 40px;
+  text-align: right;
+  top: 0px;
+  right: 10px;
+}
+/* line 86, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-state-container .content-promo-pager span {
+  display: inline-block;
+  height: 38px;
+  width: 26px;
+  border-radius: 10px;
+  background: url(../css/resources/slider-bullets.png) -1px 0 no-repeat;
+  margin: 0;
+  position: relative;
+  top: -2px;
+}
+/* line 96, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-state-container .content-promo-pager span:hover {
+  background-position: -26px 0;
+}
+/* line 99, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-state-container .content-promo-pager span.cycle-pager-active,
+#content-promo .content-promo-state-container .content-promo-pager span.cycle-pager-active:hover {
+  background-position: -26px 0;
+}
+/* line 105, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide {
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  display: none;
+  left: 50%;
+  margin-left: -50%;
+}
+/* line 113, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide .promo-background {
+  position: absolute;
+  width: 100%;
+  min-width: 1000px;
+  height: 1080px;
+  background: transparent none 50% 0px no-repeat;
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  z-index: -1;
+}
+/* line 124, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide .promo-content {
+  position: relative;
+  top: 270px;
+  height: 240px;
+  z-index: 2;
+  padding: 0 30px;
+  margin: 0 auto;
+  width: 1000px;
+}
+/* line 133, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide .promo-content h2 {
+  font-size: 2.8em;
+  line-height: 1em;
+  background: transparent;
+  color: #ff9c00;
+  border: 0;
+  height: auto;
+  margin: 0 0 5px 0;
+  padding: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* line 149, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide .promo-content h4 {
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 0 0 20px 0;
+  color: #fbd989;
+}
+/* line 158, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide .promo-content .promo-links {
+  position: absolute;
+  bottom: 0px;
+}
+/* line 163, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide .promo-content .file-video iframe {
+  box-shadow: 0px -20px 15px -15px rgba(255, 156, 0, 0.1), 20px 0 15px -15px rgba(255, 156, 0, 0.1), 0px 20px 15px -15px rgba(255, 156, 0, 0.1), -20px 0 15px -15px rgba(255, 156, 0, 0.1);
+}
+/* line 171, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo-slide .promo-content img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 181, ../scss/elements/_frontpage-rotator.scss */
+#content-promo .content-promo:first-child {
+  display: block;
+}
+
+/*  position must not be relative because */
+/* line 188, ../scss/elements/_frontpage-rotator.scss */
+.p-romo-content .gs-container > * {
+  position: static;
+}
+
+/* line 2, ../scss/elements/_teaser.scss */
+.node-teaser .field-name-field-body-medium {
+  height: 112px;
+}
+/* line 5, ../scss/elements/_teaser.scss */
+.node-teaser .pane-time-ago-comment-count {
+  margin-left: -5px;
+}
+
+/*  ADMIN Theming  */
+/*  simple black background on the node edit pages. */
+/* line 25, ../scss/lolt.styles.scss */
+body.page-node-add,
+body.page-node-edit {
+  background: black;
+}
+
+/*  remove the LoL header and footer from the display since these aren't needed on the node edit pages. */
+/* line 30, ../scss/lolt.styles.scss */
+body.page-node-add #header,
+body.page-node-add #footer,
+body.page-node-edit #header,
+body.page-node-edit #footer {
+  display: none;
+}
+
+/* line 36, ../scss/lolt.styles.scss */
+body.page-node-add .pane-breadcrumb-title,
+body.page-node-edit .pane-breadcrumb-title {
+  padding-top: 20px;
+}
+
+/*  fix styling of the tags field so that tags that are added to a node are still easy to read/use/remove. */
+/* line 42, ../scss/lolt.styles.scss */
+body.page-node-add .node-form .field-name-field-tags div.at-term-list,
+body.page-node-edit .node-form .field-name-field-tags div.at-term-list {
+  display: block;
+}
+
+/*  Media browser modals on Node Editing forms */
+/*  Set size and position in percentages .. use !important to override the inline css set by the modal js library. */
+/* line 49, ../scss/lolt.styles.scss */
+body.page-node-add .ui-dialog.media-wrapper,
+body.page-node-edit .ui-dialog.media-wrapper {
+  height: 87% !important;
+  width: 94% !important;
+  top: 9% !important;
+  left: 3% !important;
+  display: block !important;
+  position: fixed !important;
+}
+
+/* line 58, ../scss/lolt.styles.scss */
+body.page-node-add .ui-dialog.media-wrapper iframe#mediaBrowser,
+body.page-node-edit .ui-dialog.media-wrapper iframe#mediaBrowser {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* line 63, ../scss/lolt.styles.scss */
+body.page-node-add #website-feedback,
+body.page-node-edit #website-feedback {
+  display: none;
+}
+
+/*  Apply admin button styling to link type button on the node eit form  */
+/* line 69, ../scss/lolt.styles.scss */
+body.page-node-add .node-form .button,
+body.page-node-edit .node-form .button {
+  box-sizing: border-box;
+  color: black;
+  cursor: default;
+  display: inline-block;
+  font-family: 'Lucida Grande';
+  font-size: 11px;
+  height: 18px;
+  border: 1px solid silver;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 0px 10px;
+  padding: 0px 8px;
+  text-align: center;
+  text-indent: 0px;
+  text-shadow: none;
+  white-space: pre;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  text-decoration: none;
+  -webkit-appearance: push-button;
+  -moz-appearance: push-button;
+  appearance: push-button;
+}
+
+/* line 95, ../scss/lolt.styles.scss */
+.node-unpublished {
+  background: transparent;
+}
+
+/* line 99, ../scss/lolt.styles.scss */
+#admin-menu {
+  top: -19px;
+}
+
+/* line 102, ../scss/lolt.styles.scss */
+.riotbar-present #admin-menu {
+  top: 0;
+  z-index: 9;
+}
+
+/* line 107, ../scss/lolt.styles.scss */
+html body {
+  min-width: 1000px;
+}
+
+/* line 110, ../scss/lolt.styles.scss */
+html body.admin-menu.riotbar-present {
+  margin-top: 40px !important;
+}
+
+/* line 114, ../scss/lolt.styles.scss */
+.pane-lolbar-navigation {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 120, ../scss/lolt.styles.scss */
+.front .pane-lolbar-navigation {
+  padding: 45px 0;
+}
+
+/* line 123, ../scss/lolt.styles.scss */
+.not-front .pane-lolbar-navigation {
+  height: auto;
+  padding: 15px 0;
+}
+
+/* line 128, ../scss/lolt.styles.scss */
+#header-riotbar {
+  background: url(../img/lol_logo.png) center center no-repeat;
+  background-size: contain;
+  width: 225px;
+  height: 85px;
+  z-index: 10;
+  margin-left: 20px;
+  display: block;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 140, ../scss/lolt.styles.scss */
+a.tabledrag-handle .handle {
+  background: url("/misc/draggable.png") no-repeat scroll 6px 9px transparent;
+  height: 24px;
+  margin: -2px 0 0 14px;
+  padding: 0;
+  width: 23px;
+}
+
+/* line 147, ../scss/lolt.styles.scss */
+table.tabledrag-processed {
+  width: 100%;
+}
+
+/*  changes for lolkit */
+/* line 151, ../scss/lolt.styles.scss */
+h4 {
+  font-size: 1.35em;
+}
+
+/* line 154, ../scss/lolt.styles.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 160, ../scss/lolt.styles.scss */
+h1.article-title {
+  font-size: 2em;
+  line-height: 1.1em;
+  margin-bottom: 0px;
+}
+
+/* line 166, ../scss/lolt.styles.scss */
+.article_detail {
+  display: block;
+  margin: 0em 0 1em;
+}
+
+/* line 171, ../scss/lolt.styles.scss */
+.posted_by {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 0.75em;
+}
+
+/* line 177, ../scss/lolt.styles.scss */
+.pager {
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* line 181, ../scss/lolt.styles.scss */
+.pager-offset {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* line 186, ../scss/lolt.styles.scss */
+.pager-offset .pager {
+  position: absolute;
+  bottom: -40px;
+  right: 0px;
+}
+
+/*  force grid items to be position static so that a parent container can be the relative parent for absolute positioned elements */
+/* line 193, ../scss/lolt.styles.scss */
+.gs-static > * {
+  position: static;
+}
+
+/* line 197, ../scss/lolt.styles.scss */
+.field-name-body a.region-na,
+.field-name-body a.region-euw,
+.field-name-body a.region-eune {
+  display: none;
+}
+
+/* line 205, ../scss/lolt.styles.scss */
+.sidebar-navigation ul.menu {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  /* i18n-fonts : headings font */
+}
+/* line 211, ../scss/lolt.styles.scss */
+.i18n-cs .sidebar-navigation ul.menu, .i18n-el .sidebar-navigation ul.menu, .i18n-tr .sidebar-navigation ul.menu, .i18n-pl .sidebar-navigation ul.menu, .i18n-pt .sidebar-navigation ul.menu, .i18n-tr .sidebar-navigation ul.menu, .i18n-ro .sidebar-navigation ul.menu, .i18n-ru .sidebar-navigation ul.menu {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* line 222, ../scss/lolt.styles.scss */
+.sidebar-navigation ul.menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.4em;
+  /*  last link is a view all link and should be distinctly styled  */
+}
+/* line 229, ../scss/lolt.styles.scss */
+.sidebar-navigation ul.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 233, ../scss/lolt.styles.scss */
+.sidebar-navigation ul.menu li li {
+  font-size: .675em;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+/* line 238, ../scss/lolt.styles.scss */
+.sidebar-navigation ul.menu li li a {
+  text-transform: none;
+}
+/* line 242, ../scss/lolt.styles.scss */
+.sidebar-navigation ul.menu li li.first {
+  margin-top: 10px;
+}
+/* line 246, ../scss/lolt.styles.scss */
+.sidebar-navigation ul.menu li li.last {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+/* line 256, ../scss/lolt.styles.scss */
+.sidebar-navigation .subtle-divider {
+  margin: 20px 0;
+}
+
+/* line 261, ../scss/lolt.styles.scss */
+h2.black-bar-header,
+.black-bar-header h2,
+#mini-panel-lol_media_browser_featured_media h2 {
+  background: black url("https://lolstatic-a.akamaihd.net/lolkit/1.1.9/resources/images/lol-textures.jpg") no-repeat 0 -6px;
+  padding: 17px 20px 11px 20px;
+  margin: 0px 0 0 0;
+  -webkit-box-shadow: 0px 1px 2px #323232;
+  -moz-box-shadow: 0px 1px 2px #323232;
+  box-shadow: 0px 1px 2px #323232;
+  color: #DFE1E1;
+  position: relative;
+}
+
+/* line 273, ../scss/lolt.styles.scss */
+h2.black-bar-header:before,
+.black-bar-header h2:before,
+#mini-panel-lol_media_browser_featured_media h2:before {
+  content: "";
+  display: block;
+  height: 2px;
+  background: black url("https://lolstatic-a.akamaihd.net/lolkit/1.1.9/resources/images/lol-textures.jpg") no-repeat center -1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/* line 287, ../scss/lolt.styles.scss */
+.black-bar-header h2,
+#mini-panel-lol_media_browser_featured_media h2 {
+  margin-bottom: 20px;
+}
+
+/* line 293, ../scss/lolt.styles.scss */
+.node-teaser .field-name-field-body-medium {
+  max-height: 7.5em;
+  overflow: hidden;
+}
+
+/* line 297, ../scss/lolt.styles.scss */
+.node-article.node-teaser .teaser-content {
+  height: 110px;
+  margin-top: 10px;
+}
+
+/* line 301, ../scss/lolt.styles.scss */
+.node-teaser .field-name-field-article-media img {
+  width: 281px;
+  height: 158px;
+}
+
+/*  Related News listing block  */
+/* line 307, ../scss/lolt.styles.scss */
+.view-id-news_small_listing .node-small-listing {
+  margin: 10px 0;
+}
+
+/* line 311, ../scss/lolt.styles.scss */
+.media-tertiary .node-small-card .panel-separator,
+.media-tertiary .node-small-card .gs-container {
+  display: none;
+}
+
+/*  temp fix for wrapper problem on small card grid view. This creates spacing issues, but ensures that the */
+/* line 317, ../scss/lolt.styles.scss */
+.view-lol-media-browser-browse .node-small-card h4 {
+  height: 2.1em;
+  overflow: hidden;
+}
+
+/* line 321, ../scss/lolt.styles.scss */
+.view-lol-media-browser-browse .node-small-card .gs-container > * {
+  padding-top: 0px;
+}
+
+/* line 324, ../scss/lolt.styles.scss */
+.view-lol-media-browser-browse .node-art.node-small-card .gs-container {
+  margin-top: 0px;
+}
+
+/* line 328, ../scss/lolt.styles.scss */
+a.lol-core-file-formatter {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* line 333, ../scss/lolt.styles.scss */
+.file-type-icon {
+  position: absolute;
+  display: block;
+  bottom: 5px;
+  right: 5px;
+  width: 24px;
+  height: 23px;
+  border-radius: 2px;
+}
+
+/* line 342, ../scss/lolt.styles.scss */
+.file-type-icon-video {
+  background: #d0d1d3 url(resources/lol-icons.png) no-repeat -3px -260px;
+  box-shadow: 1px 1px 3px #222;
+}
+
+/* line 348, ../scss/lolt.styles.scss */
+.time-ago,
+.field-name-field-category a,
+.field-name-field-category a:visited,
+.field-name-field-media-type a,
+.field-name-field-media-type a:visited {
+  color: #888888;
+}
+
+/*  remove the default backdrop from the homepage   */
+/* line 357, ../scss/lolt.styles.scss */
+.backdrop {
+  background: url("../img/lol_news_new_bg.jpg") top center no-repeat;
+}
+
+/* line 360, ../scss/lolt.styles.scss */
+body.page-home .backdrop {
+  background-image: none;
+}
+
+/*  position the default drupal admin tabs in a place that they are easy to use and do not disrupt the design of the page. */
+/* line 365, ../scss/lolt.styles.scss */
+.tabs ul.primary {
+  position: fixed;
+  left: 0px;
+  top: 250px;
+  z-index: 100;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 373, ../scss/lolt.styles.scss */
+.tabs ul.primary li a {
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  margin: 0;
+  padding: 5px 5px 5px 10px;
+  background-color: #DDD;
+  white-space: normal;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 10px;
+}
+/* line 384, ../scss/lolt.styles.scss */
+.tabs ul.primary li a:hover {
+  background-color: #EEE;
+}
+/* line 388, ../scss/lolt.styles.scss */
+.tabs ul.primary li.active a,
+.tabs ul.primary li.active a:hover {
+  background-color: #FFF;
+}
+
+/*  better looking error styling  */
+/* line 395, ../scss/lolt.styles.scss */
+div.error, table tr.error {
+  color: #fef5f1;
+  background-color: #8c2e0b;
+}
+
+/* custom error styling for chossen module */
+/* line 401, ../scss/lolt.styles.scss */
+div.error .chosen-drop {
+  color: #8c2e0b;
+}
+
+/*  styles the homepage news links   */
+/* line 406, ../scss/lolt.styles.scss */
+.view-news-recent {
+  position: relative;
+}
+
+/* line 409, ../scss/lolt.styles.scss */
+.view-news-recent .view-footer a.header-links {
+  position: absolute;
+  top: -57px;
+  right: 20px;
+  border-width: 0 1px;
+  display: block;
+  color: #bbbbbb;
+  text-decoration: none;
+  line-height: 37px;
+  padding: 12px 15px 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* line 423, ../scss/lolt.styles.scss */
+.view-news-recent .view-footer a.header-links:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/*  style the contents of the interstitial overlay  */
+/* line 429, ../scss/lolt.styles.scss */
+#colorbox.beta-interstitial-colorbox {
+  background: transparent none;
+  border-radius: 0px;
+  box-shadow: none;
+  outline: none;
+}
+
+/* line 435, ../scss/lolt.styles.scss */
+.beta-interstitial-colorbox #cboxBottomRight,
+.beta-interstitial-colorbox #cboxBottomLeft,
+.beta-interstitial-colorbox #cboxBottomCenter,
+.beta-interstitial-colorbox #cboxMiddleLeft,
+.beta-interstitial-colorbox #cboxMiddleRight,
+.beta-interstitial-colorbox #cboxTopRight,
+.beta-interstitial-colorbox #cboxTopLeft,
+.beta-interstitial-colorbox #cboxTopCenter {
+  display: none !important;
+}
+
+/* line 445, ../scss/lolt.styles.scss */
+.beta-interstitial-colorbox #cboxLoadedContent,
+.beta-interstitial-colorbox #cboxContent {
+  margin: 0px !important;
+}
+
+/* line 449, ../scss/lolt.styles.scss */
+.beta-interstitial-colorbox #cboxTitle {
+  height: 0px;
+  padding: 0px;
+}
+
+/* line 453, ../scss/lolt.styles.scss */
+.beta-interstitial-colorbox #cboxClose {
+  border: none;
+  top: 0px;
+  right: 0px;
+  display: none;
+}
+
+/* line 459, ../scss/lolt.styles.scss */
+#mini-panel-lol_sneak_peek_prestitial_overlay {
+  background-color: #FFF;
+}
+
+/* line 462, ../scss/lolt.styles.scss */
+html body.page-sneak-peek-overlay {
+  background-color: #FFF;
+  margin: 0px !important;
+}
+
+/* line 466, ../scss/lolt.styles.scss */
+.beta-prestitial > div {
+  width: 740px;
+  height: 330px;
+  padding: 40px 50px;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+/* line 473, ../scss/lolt.styles.scss */
+.beta-prestitial .close-interstitial {
+  margin-top: 20px;
+}
+
+/* line 476, ../scss/lolt.styles.scss */
+.beta-prestitial .featured {
+  text-align: left;
+}
+
+/*  SHAME: These cures are here because drupal is inserting some css into the page which sets the width to 99%, which causes rendering problems. */
+/* line 481, ../scss/lolt.styles.scss */
+.panels-flexible-column-new-main,
+.panels-flexible-region-new-center {
+  width: 100% !important;
+}
+
+/*
+  Since we don't want to effect desktop styles,
+  all styles are wrapped in media queries.
+*/
+/*
+  Fixing Section Wrappers
+*/
+@media (max-width: 1024px) {
+  /*
+   * restring which page types these mobile styles get applied to
+   * this prevents breaking pages with custom css.
+   */
+  /* line 16, ../scss/mobile/_mobile.scss */
+  .node-type-article,
+  .front,
+  .page-news,
+  .page-taxonomy {
+    min-width: 0;
+    max-width: none;
+    width: 100%;
+    /*
+      ensure that videos fit in their containers
+    */
+  }
+  /* line 24, ../scss/mobile/_mobile.scss */
+  .node-type-article #header, .node-type-article #footer, .node-type-article .section-wrapper,
+  .front #header,
+  .front #footer,
+  .front .section-wrapper,
+  .page-news #header,
+  .page-news #footer,
+  .page-news .section-wrapper,
+  .page-taxonomy #header,
+  .page-taxonomy #footer,
+  .page-taxonomy .section-wrapper {
+    min-width: 0;
+    max-width: none;
+    width: 100%;
+  }
+  /* line 30, ../scss/mobile/_mobile.scss */
+  .node-type-article .backdrop,
+  .front .backdrop,
+  .page-news .backdrop,
+  .page-taxonomy .backdrop {
+    min-width: 0;
+  }
+  /* line 34, ../scss/mobile/_mobile.scss */
+  .node-type-article #breadcrumbs,
+  .front #breadcrumbs,
+  .page-news #breadcrumbs,
+  .page-taxonomy #breadcrumbs {
+    width: 100%;
+  }
+  /* line 37, ../scss/mobile/_mobile.scss */
+  .node-type-article #breadcrumbs ol li:first-child, .node-type-article #breadcrumbs ol li,
+  .front #breadcrumbs ol li:first-child,
+  .front #breadcrumbs ol li,
+  .page-news #breadcrumbs ol li:first-child,
+  .page-news #breadcrumbs ol li,
+  .page-taxonomy #breadcrumbs ol li:first-child,
+  .page-taxonomy #breadcrumbs ol li {
+    margin: 0 5px 0 0;
+  }
+  /* line 41, ../scss/mobile/_mobile.scss */
+  .node-type-article #breadcrumbs ol li:last-child,
+  .front #breadcrumbs ol li:last-child,
+  .page-news #breadcrumbs ol li:last-child,
+  .page-taxonomy #breadcrumbs ol li:last-child {
+    margin: 0;
+  }
+  /* line 49, ../scss/mobile/_mobile.scss */
+  .node-type-article video.video-js,
+  .front video.video-js,
+  .page-news video.video-js,
+  .page-taxonomy video.video-js {
+    max-width: none;
+    width: 100%;
+    height: auto;
+  }
+  /* line 55, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper,
+  .front .section-wrapper,
+  .page-news .section-wrapper,
+  .page-taxonomy .section-wrapper {
+    margin: 0px;
+    /*
+      may want to only apply the border-bottom
+      to .section-wrapper-primary
+    */
+  }
+  /* line 58, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper .section-quickbg,
+  .front .section-wrapper .section-quickbg,
+  .page-news .section-wrapper .section-quickbg,
+  .page-taxonomy .section-wrapper .section-quickbg {
+    display: none;
+  }
+  /* line 62, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper .section-wrapper-top,
+  .front .section-wrapper .section-wrapper-top,
+  .page-news .section-wrapper .section-wrapper-top,
+  .page-taxonomy .section-wrapper .section-wrapper-top {
+    display: none;
+  }
+  /* line 66, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper .section-wrapper-bottom,
+  .front .section-wrapper .section-wrapper-bottom,
+  .page-news .section-wrapper .section-wrapper-bottom,
+  .page-taxonomy .section-wrapper .section-wrapper-bottom {
+    display: none;
+  }
+  /* line 74, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper .section-wrapper-content,
+  .front .section-wrapper .section-wrapper-content,
+  .page-news .section-wrapper .section-wrapper-content,
+  .page-taxonomy .section-wrapper .section-wrapper-content {
+    background: transparent none;
+    border-bottom: 1px solid rgba(207, 186, 107, 0.5);
+  }
+  /* line 78, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper,
+  .front .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper,
+  .page-news .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper,
+  .page-taxonomy .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper {
+    margin: 0 auto;
+    background: transparent;
+    width: 100%;
+    padding: 30px;
+    border: none;
+    border-radius: 3px;
+  }
+  /* line 89, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper-primary,
+  .front .section-wrapper-primary,
+  .page-news .section-wrapper-primary,
+  .page-taxonomy .section-wrapper-primary {
+    clear: both;
+  }
+}
+@media (max-width: 768px) {
+  /* line 102, ../scss/mobile/_mobile.scss */
+  .node-type-article #breadcrumbs,
+  .front #breadcrumbs,
+  .page-news #breadcrumbs,
+  .page-taxonomy #breadcrumbs {
+    padding: 0 20px;
+  }
+  /* line 106, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper,
+  .front .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper,
+  .page-news .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper,
+  .page-taxonomy .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper {
+    padding: 20px;
+  }
+}
+/*
+  Misc LoLKit style changes
+*/
+@media (max-width: 1024px) {
+  /*
+    Fixing Content Borders
+  */
+  /* line 120, ../scss/mobile/_mobile.scss */
+  .content-border {
+    background-color: #c7c7c7;
+  }
+
+  /* line 124, ../scss/mobile/_mobile.scss */
+  header.header-primary,
+  header.header-secondary.header-primary {
+    background: #000 none;
+  }
+
+  /* line 129, ../scss/mobile/_mobile.scss */
+  .riot-tabs .riot-tabs-header-container .riot-tabs-header {
+    background: linear-gradient(#e0e1e3, #ccccca);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  /* line 135, ../scss/mobile/_mobile.scss */
+  .accent-before::before, header.header-primary::before, .accent-after::after {
+    height: 1px;
+    background: #cfba6b none;
+  }
+
+  /* line 140, ../scss/mobile/_mobile.scss */
+  .pager-offset {
+    margin-bottom: 0px;
+  }
+
+  /*
+  .view-news-recent a.lol-core-file-formatter,
+  .view-frontpage-cards a.lol-core-file-formatter {
+    display: block;
+  }
+  */
+  /* line 151, ../scss/mobile/_mobile.scss */
+  a.lol-core-file-formatter {
+    display: block;
+  }
+}
+/*
+  === frontpage-cards === === === === ===
+*/
+@media (max-width: 1024px) {
+  /* line 161, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards {
+    /*
+      hide the download card in mobile and tablets layouts.
+      see the method "flagDownloadPromo" in lol2_profile/themes/custom/js/responsive-helpers.js
+      to see how the download-promo-col class is assigned
+    */
+  }
+  /* line 163, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards > .gs-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  /* line 174, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards > .gs-container .node-promo-card .pane-content a, .view-frontpage-cards > .gs-container .node-promo-card .pane-content img {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 180, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards > .gs-container .node-medium-card {
+    height: auto;
+    width: 100%;
+  }
+  /* line 185, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards > .gs-container .medium-card-media img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  /* line 194, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards .medium-card-content .medium-card-content-content {
+    height: auto;
+    margin-bottom: 5px;
+  }
+  /* line 199, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards .medium-card-content .icon-posted {
+    display: none;
+  }
+  /* line 203, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards .medium-card-content .field-name-field-body-small {
+    max-height: none;
+  }
+  /* line 207, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards .medium-card-content .field-name-field-category {
+    text-align: left;
+    white-space: nowrap;
+    float: left;
+  }
+  /* line 213, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards .medium-card-content .medium-card-content-meta .gs-container > * {
+    padding-top: 0px;
+    width: 100%;
+  }
+  /* line 224, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards .download-promo-col {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* line 232, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards > .gs-container > .default-1-3 {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 239, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards > .gs-container > .default-1-3 {
+    width: 100%;
+  }
+}
+/*
+  === recent news / news teasers === === === === ===
+*/
+@media (max-width: 1024px) {
+  /* these styles are scoped to specfic views,
+   * so we don't need the page namespacing here.
+   */
+  /* line 255, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .white-stone,
+  .view-news-recent .white-stone {
+    padding: 20px;
+  }
+  /* line 259, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .node-article.node-teaser,
+  .view-news-recent .node-article.node-teaser {
+    margin: 0px 0;
+  }
+  /* line 262, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .node-article.node-teaser .field-name-field-article-media img,
+  .view-news-recent .node-article.node-teaser .field-name-field-article-media img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 267, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .node-article.node-teaser .teaser-content,
+  .view-news-recent .node-article.node-teaser .teaser-content {
+    height: auto;
+    margin: 10px 0;
+  }
+  /* line 274, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .icon-container.icon-posted,
+  .view-news-recent .icon-container.icon-posted {
+    background-position: -5px -7px;
+    padding-left: 25px;
+  }
+  /* line 279, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .node-teaser:first-child,
+  .view-news-recent .node-teaser:first-child {
+    border-top: none;
+  }
+  /* line 283, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .view-footer,
+  .view-news-recent .view-footer {
+    background: transparent;
+    position: absolute;
+    right: 0;
+  }
+  /* line 289, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .view-footer a.header-links,
+  .page-taxonomy .view-term-nodes .view-footer a.header-links:visited,
+  .view-news-recent .view-footer a.header-links,
+  .view-news-recent .view-footer a.header-links:visited {
+    position: static;
+    display: inline;
+    color: #257372;
+    background: transparent none;
+    border: none;
+    padding: 1em 0;
+    line-height: 3em;
+    white-space: nowrap;
+  }
+  /* line 300, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .view-footer a.header-links:hover,
+  .page-taxonomy .view-term-nodes .view-footer a.header-links:visited:hover,
+  .view-news-recent .view-footer a.header-links:hover,
+  .view-news-recent .view-footer a.header-links:visited:hover {
+    color: #5cb2b1;
+    background: transparent none;
+  }
+
+  /* line 311, ../scss/mobile/_mobile.scss */
+  h2.black-bar-header,
+  .black-bar-header h2,
+  #mini-panel-lol_media_browser_featured_media h2 {
+    background: #000 none;
+  }
+  /* line 316, ../scss/mobile/_mobile.scss */
+  h2.black-bar-header::before,
+  .black-bar-header h2::before,
+  #mini-panel-lol_media_browser_featured_media h2::before {
+    background: rgba(207, 186, 107, 0.5) none;
+    height: 1px;
+  }
+
+  /* line 323, ../scss/mobile/_mobile.scss */
+  .content-border.pager-offset {
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  /* line 328, ../scss/mobile/_mobile.scss */
+  .pager-offset .pager {
+    position: relative;
+    bottom: initial;
+    right: initial;
+    padding: 10px;
+    margin: 0px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 343, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .gs-container > .default-1-3,
+  .page-taxonomy .view-term-nodes .gs-container > .default-2-3,
+  .view-news-recent .gs-container > .default-1-3,
+  .view-news-recent .gs-container > .default-2-3 {
+    width: 50%;
+  }
+  /* line 348, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .node-teaser .field-name-field-body-medium,
+  .view-news-recent .node-teaser .field-name-field-body-medium {
+    height: auto;
+    max-height: none;
+  }
+
+  /* line 358, ../scss/mobile/_mobile.scss */
+  .page-news #breadcrumbs h1,
+  .page-taxonomy #breadcrumbs h1 {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  /* line 368, ../scss/mobile/_mobile.scss */
+  .view-frontpage-cards > .gs-container > .default-1-3 {
+    width: 100%;
+  }
+
+  /* line 375, ../scss/mobile/_mobile.scss */
+  .page-taxonomy .view-term-nodes .gs-container > .default-1-3,
+  .page-taxonomy .view-term-nodes .gs-container > .default-2-3,
+  .view-news-recent .gs-container > .default-1-3,
+  .view-news-recent .gs-container > .default-2-3 {
+    width: 100%;
+  }
+}
+/*
+  FOOTER
+ */
+@media (max-width: 1024px) {
+  /* line 389, ../scss/mobile/_mobile.scss */
+  #footer {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
+  /* line 394, ../scss/mobile/_mobile.scss */
+  #footer #footer-content {
+    width: 100%;
+    padding: 10px;
+  }
+  /* line 400, ../scss/mobile/_mobile.scss */
+  #footer #footer-sub-nav li:nth-child(3) {
+    display: none;
+  }
+  /* line 404, ../scss/mobile/_mobile.scss */
+  #footer #footer-play-for-free {
+    display: none;
+  }
+  /* line 412, ../scss/mobile/_mobile.scss */
+  #footer .gs-container.vertical-gutter .default-1-5:last-child {
+    display: none;
+    width: 25%;
+  }
+  /* line 417, ../scss/mobile/_mobile.scss */
+  #footer .gs-container.vertical-gutter .default-3-5 {
+    width: 75%;
+  }
+  /* line 421, ../scss/mobile/_mobile.scss */
+  #footer #footer-nav a {
+    color: #bafff7;
+    white-space: nowrap;
+  }
+  /* line 426, ../scss/mobile/_mobile.scss */
+  #footer .btn-large-primary {
+    background-color: #BF6904;
+    background: linear-gradient(#db8e01, #871e0a);
+    box-shadow: inset 1px 1px 9px rgba(135, 30, 10, 0.8), inset -1px -1px 5px rgba(181, 60, 2, 0.8);
+    color: #FFFFFF;
+    border: 1px solid #a29361;
+    border-color: #a29361 #928456 #5f5940 #928456;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    padding: 0 1em;
+    line-height: 30px;
+    height: 30px;
+    font-style: italic;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  /* line 440, ../scss/mobile/_mobile.scss */
+  #footer .btn-large-primary:link, #footer .btn-large-primary:visited {
+    color: #FFFFFF;
+  }
+  /* line 444, ../scss/mobile/_mobile.scss */
+  #footer .btn-large-primary:hover {
+    background-color: #D27905;
+    background: linear-gradient(#f3a502, #90210c);
+    box-shadow: inset 1px 1px 9px rgba(135, 30, 10, 0.8), inset -1px -1px 5px rgba(181, 60, 2, 0.8);
+    color: #FFFFFF;
+  }
+  /* line 450, ../scss/mobile/_mobile.scss */
+  #footer .btn-large-primary:active {
+    background-color: #b87900;
+    background: linear-gradient(#b87900, #651306);
+    box-shadow: inset 1px 1px 9px rgba(135, 30, 10, 0.8), inset -1px -1px 5px rgba(181, 60, 2, 0.8);
+    color: #d1c6b9;
+  }
+  /* line 456, ../scss/mobile/_mobile.scss */
+  #footer .btn-large-primary.disabled {
+    background-color: #694a16;
+    background: linear-gradient(#694a16, #320e09);
+    box-shadow: inset 1px 1px 9px #503721, inset -1px -1px 5px #41281f;
+    color: #917d5f;
+    border-color: #685e3c #80754e #3b3727 #80754e;
+  }
+}
+@media (max-width: 768px) {
+  /* line 474, ../scss/mobile/_mobile.scss */
+  #footer .gs-container.vertical-gutter .default-1-5 {
+    display: none;
+  }
+  /* line 478, ../scss/mobile/_mobile.scss */
+  #footer .gs-container.vertical-gutter .default-3-5 {
+    width: 100%;
+  }
+  /* line 483, ../scss/mobile/_mobile.scss */
+  #footer #footer-content #footer-nav {
+    display: none;
+  }
+}
+/*
+  LoL Logo
+ */
+@media (max-width: 1024px) {
+  /*
+    site header, lol-logo
+   */
+  /* line 499, ../scss/mobile/_mobile.scss */
+  .pane-lolbar-navigation {
+    width: 30%;
+    min-width: 160px;
+  }
+
+  /* line 504, ../scss/mobile/_mobile.scss */
+  #header-riotbar {
+    width: 100%;
+    margin-left: 0;
+    background-position: center center;
+  }
+}
+/*
+  Rotator
+ */
+@media (max-width: 1024px) {
+  /*
+    site header, lol-logo treatment with homepage rotator
+   */
+  /* line 520, ../scss/mobile/_mobile.scss */
+  .front .pane-lolbar-navigation {
+    position: absolute;
+    padding: 4% 0 0 4%;
+  }
+
+  /* line 525, ../scss/mobile/_mobile.scss */
+  .not-front .pane-lolbar-navigation {
+    margin: 0 20px;
+  }
+
+  /* line 529, ../scss/mobile/_mobile.scss */
+  .front #header-riotbar {
+    background-position: top center;
+  }
+
+  /* line 533, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(207, 186, 107, 0.5);
+    /*
+      this ensures that we control the aspect ratio of the rotator at all screen widths.
+     */
+  }
+  /* line 546, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo:before {
+    content: "";
+    display: block;
+    padding-top: 41.7%;
+  }
+  /* line 552, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: initial;
+    bottom: 0px;
+    left: 0px;
+    right: initial;
+    margin-left: 0px;
+  }
+  /* line 562, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container .content-promo-pager {
+    top: initial;
+    left: initial;
+    height: 25px;
+    right: 0;
+    bottom: 10px;
+    width: auto;
+    padding: 0 30px;
+  }
+  /* line 571, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container .content-promo-pager span {
+    height: 16px;
+    width: 16px;
+    background: rgba(207, 186, 107, 0.25) none;
+    border: 1px solid rgba(207, 186, 107, 0.8);
+    margin: 0 5px;
+    top: 0;
+  }
+  /* line 579, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container .content-promo-pager span:hover {
+    background: rgba(207, 186, 107, 0.4) none;
+    border: 1px solid #cfba6b;
+  }
+  /* line 584, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container .content-promo-pager span.cycle-pager-active, .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container .content-promo-pager span.cycle-pager-active:hover {
+    border: 1px solid #cfba6b;
+    background: rgba(207, 186, 107, 0.5) none;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NmYmE2YiIgc3RvcC1vcGFjaXR5PSIwLjYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZmJhNmIiIHN0b3Atb3BhY2l0eT0iMC4yIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(207, 186, 107, 0.6)), color-stop(100%, rgba(207, 186, 107, 0.2)));
+    background-image: -moz-linear-gradient(rgba(207, 186, 107, 0.6), rgba(207, 186, 107, 0.2));
+    background-image: -webkit-linear-gradient(rgba(207, 186, 107, 0.6), rgba(207, 186, 107, 0.2));
+    background-image: linear-gradient(rgba(207, 186, 107, 0.6), rgba(207, 186, 107, 0.2));
+  }
+  /* line 600, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-rotator {
+    width: 100% !important;
+    top: 0px !important;
+    height: 100% !important;
+  }
+  /* line 606, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    /*
+      slide background
+    */
+  }
+  /* line 614, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-background {
+    top: 0;
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    background: transparent none 50% 15% repeat;
+    background-size: 200%;
+    /*
+     ensure the art is always the correct aspect ratio
+     */
+  }
+  /* line 625, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-background:before {
+    content: "";
+    display: block;
+    padding-top: 41.7%;
+  }
+  /* line 631, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-background object {
+    display: none;
+  }
+  /* line 637, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .generic-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  /* line 644, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-content {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: initial;
+    bottom: 0;
+    padding: 0 30px;
+    min-height: 60%;
+  }
+
+  /* line 658, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content > .gs-container {
+    margin-top: 0px;
+  }
+
+  /* line 663, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content > .gs-container > .default-1-2 {
+    width: 60%;
+    clear: left;
+  }
+
+  /* line 669, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content > .gs-container > .default-1-2:empty {
+    display: none;
+  }
+
+  /* line 674, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content h2 {
+    text-transform: none;
+    font-family: "Beaufort for LoL";
+    font-weight: 100;
+    color: #eee8ce;
+    font-size: 28px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), -1px -1px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 685, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content h4 {
+    text-transform: uppercase;
+    font-family: "Beaufort for LoL";
+    font-weight: 100;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), -1px -1px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 694, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content h4:empty {
+    display: none;
+  }
+
+  /* line 699, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content .body-medium {
+    margin: 1em 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  /* line 706, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content .promo-links {
+    position: relative;
+    bottom: initial;
+    margin-top: 1em;
+  }
+
+  /* line 713, ../scss/mobile/_mobile.scss */
+  #content-promo .btn-large-primary {
+    background-color: #151515;
+    background: linear-gradient(to bottom, #2f2f2f 0%, #000000 100%);
+    border: 1px solid #766e4c;
+    color: #dec58d;
+    font-weight: 700;
+    padding: 0.25em 1em;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+  /* line 724, ../scss/mobile/_mobile.scss */
+  #content-promo .btn-large-primary:link, #content-promo .btn-large-primary:visited {
+    color: #dec58d;
+  }
+  /* line 728, ../scss/mobile/_mobile.scss */
+  #content-promo .btn-large-primary:hover {
+    color: #eed59d;
+    background-color: #D27905;
+    background: linear-gradient(to bottom, #3d3d3d 0%, #000000 100%);
+  }
+  /* line 733, ../scss/mobile/_mobile.scss */
+  #content-promo .btn-large-primary:active {
+    color: #dec58d;
+    background-color: #b87900;
+    background: linear-gradient(to bottom, #2f2f2f 0%, #000000 100%);
+  }
+}
+@media (max-width: 768px) {
+  /*
+   * At smaller screen sizes, we'll move the slide content
+   * under the art, so we make some space for it
+   */
+  /* line 751, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo:before {
+    margin-bottom: 9em;
+  }
+  /* line 755, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container {
+    bottom: 0;
+    /*
+     if the bullets should be up on top of the art instead:
+      bottom: 9em;
+     */
+  }
+  /* line 762, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-state-container .content-promo-pager {
+    text-align: right;
+    padding: 0 20px;
+  }
+  /* line 770, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    min-height: initial;
+    padding: 0 20px;
+    border-top: 1px solid #0C2830;
+  }
+  /* line 780, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-content > .gs-container > .default-1-2 {
+    width: 100%;
+  }
+  /* line 784, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-content h2 {
+    font-size: 24px;
+  }
+  /* line 789, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-content .body-medium, .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-content .field-name-field-subtitle {
+    display: none;
+  }
+  /* line 793, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-content .promo-links {
+    position: absolute;
+    bottom: 20px;
+    margin-top: 0;
+    left: 20px;
+  }
+  /* line 802, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .promo-background {
+    position: relative;
+  }
+  /* line 806, ../scss/mobile/_mobile.scss */
+  .pane-frontpage-rotator-current-new #content-promo .content-promo-slide .generic-wrapper {
+    position: relative;
+    height: 9em;
+    width: 100%;
+    top: 0;
+  }
+}
+@media (max-width: 640px) {
+  /* line 824, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content > .gs-container > .default-1-2 {
+    width: 80%;
+    clear: left;
+  }
+
+  /* line 830, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 843, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content .body-medium {
+    display: none;
+  }
+
+  /* line 848, ../scss/mobile/_mobile.scss */
+  #content-promo .content-promo-slide
+  .promo-content > .gs-container > .default-1-2 {
+    width: 100%;
+    clear: left;
+  }
+}
+/*
+  Pager
+ */
+@media (max-width: 768px) {
+  /* line 868, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager span,
+  .front .pager span,
+  .page-news .pager span,
+  .page-taxonomy .pager span {
+    display: none;
+  }
+  /* line 872, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a,
+  .front .pager a,
+  .page-news .pager a,
+  .page-taxonomy .pager a {
+    display: none;
+  }
+  /* line 875, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.prev, .node-type-article .pager a.next, .node-type-article .pager a:nth-child(2), .node-type-article .pager a:nth-last-child(2),
+  .front .pager a.prev,
+  .front .pager a.next,
+  .front .pager a:nth-child(2),
+  .front .pager a:nth-last-child(2),
+  .page-news .pager a.prev,
+  .page-news .pager a.next,
+  .page-news .pager a:nth-child(2),
+  .page-news .pager a:nth-last-child(2),
+  .page-taxonomy .pager a.prev,
+  .page-taxonomy .pager a.next,
+  .page-taxonomy .pager a:nth-child(2),
+  .page-taxonomy .pager a:nth-last-child(2) {
+    display: inline-block;
+  }
+  /* line 882, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active,
+  .front .pager a.active,
+  .page-news .pager a.active,
+  .page-taxonomy .pager a.active {
+    display: inline-block;
+    position: relative;
+  }
+  /* line 886, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2),
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2),
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2),
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2) {
+    margin: 0 35px 0 25px;
+  }
+  /* line 889, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2)::before, .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2)::after,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2)::before,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2)::after,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2)::before,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2)::after,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2)::before,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2)::after {
+    content: "...";
+    display: block;
+    font-size: 1.5em;
+    position: absolute;
+    top: 4.5px;
+    width: 25px;
+    height: 25px;
+  }
+  /* line 899, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2)::before,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2)::before,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2)::before,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2)::before {
+    right: 30px;
+  }
+  /* line 903, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2)::after,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2)::after,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2)::after,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2)::after {
+    left: 30px;
+  }
+  /* line 907, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2), .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3),
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2),
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3),
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2),
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3),
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2),
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3) {
+    margin-left: 0;
+  }
+  /* line 911, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2)::before, .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3)::before,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2)::before,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3)::before,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2)::before,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3)::before,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(2)::before,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-child(3)::before {
+    display: none;
+  }
+  /* line 915, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2), .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3),
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2),
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3),
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2),
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3),
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2),
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3) {
+    margin-right: 10px;
+  }
+  /* line 919, ../scss/mobile/_mobile.scss */
+  .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2)::after, .node-type-article .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3)::after,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2)::after,
+  .front .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3)::after,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2)::after,
+  .page-news .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3)::after,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(2)::after,
+  .page-taxonomy .pager a.active:nth-child(n+2):nth-last-child(n+2):nth-last-child(3)::after {
+    display: none;
+  }
+}
+/*
+  Full Article Styling
+ */
+@media (max-width: 1024px) {
+  /* line 941, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full #mini-panel-taxonomy_group > .default-1-3,
+  .node-type-article .node-full #mini-panel-taxonomy_group > .default-2-3 {
+    width: 100%;
+  }
+  /* line 945, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full #mini-panel-taxonomy_group > .default-1-3:empty,
+  .node-type-article .node-full #mini-panel-taxonomy_group > .default-2-3:empty {
+    display: none;
+  }
+  /* line 956, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container > .default-1-3 {
+    /*
+      hide sidebar videos -- they're displayed full screen on click on ipad, and there is no easy way to go back to the content
+      Some devices just display black boxes
+     */
+  }
+  /* line 960, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container > .default-1-3 .content-border > * {
+    box-shadow: none;
+  }
+  /* line 970, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container > .default-1-3 video.vid-sidebar {
+    display: none;
+  }
+  /* line 976, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full header .heading-image {
+    background-size: auto;
+    background-position: 0 0;
+  }
+  /* line 981, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full .white-stone.accent-before::before {
+    display: none;
+  }
+  /* line 985, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full .skin-box .content-border {
+    border: 1px solid #cfba6b;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* line 999, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    background: #dedede;
+    color: #333132;
+    padding: 20px;
+    clear: both;
+  }
+  /* line 1009, ../scss/mobile/_mobile.scss */
+  .node-type-article .super-toc {
+    width: 100% !important;
+  }
+  /* line 1012, ../scss/mobile/_mobile.scss */
+  .node-type-article .super-toc .anchorific {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  /* line 1024, ../scss/mobile/_mobile.scss */
+  .node-type-article {
+    /*
+      on article nodes, remove the extra padding on section wrappers
+      so that the article background covers the full width of the page.
+     */
+  }
+  /* line 1030, ../scss/mobile/_mobile.scss */
+  .node-type-article .section-wrapper .section-wrapper-content .section-wrapper-content-wrapper {
+    padding: 20px 0;
+  }
+  /* line 1034, ../scss/mobile/_mobile.scss */
+  .node-type-article .super-toc {
+    display: none;
+  }
+  /* line 1040, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container {
+    margin: 0px;
+    padding: 0px;
+  }
+  /* line 1045, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container > .default-1-3,
+  .node-type-article .node-full > .gs-container > .default-2-3 {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    float: none;
+    background: #dedede;
+    color: #333132;
+    padding: 20px;
+    clear: both;
+  }
+  /* line 1057, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container > .default-2-3 {
+    padding-bottom: 0px;
+  }
+  /* line 1061, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container > .default-1-3 {
+    border-top: 1px solid #eeeeee;
+  }
+  /* line 1064, ../scss/mobile/_mobile.scss */
+  .node-type-article .node-full > .gs-container > .default-1-3 video.vid-sidebar {
+    display: none;
+  }
+}
+/*
+  Apollo Widget Fixes
+ */
+@media (max-width: 1024px) {
+  /* line 1084, ../scss/mobile/_mobile.scss */
+  .field-type-field-riot-comments .riot-apollo {
+    padding: 0;
+  }
+
+  /* line 1088, ../scss/mobile/_mobile.scss */
+  .riot-discussion {
+    min-width: 0 !important;
+  }
+}
+@media (max-width: 1024px) and (max-width: 420px) {
+  /* line 1092, ../scss/mobile/_mobile.scss */
+  .riot-discussion .author-avatar {
+    display: none !important;
+  }
+}
+
+/*
+ Riotbar specific fix
+ */
+@media (max-width: 640px) {
+  /* line 1106, ../scss/mobile/_mobile.scss */
+  .riotbar-mobile-responsive #riotbar-account .riotbar-anonymous-link[data-riotbar-link-id=signup] {
+    display: inline-block;
+  }
+  /* line 1109, ../scss/mobile/_mobile.scss */
+  .riotbar-mobile-responsive #riotbar-account .riotbar-anonymous-link[data-riotbar-link-id=signup]:before {
+    border-left: none;
+  }
+
+  /* line 1115, ../scss/mobile/_mobile.scss */
+  .riotbar-mobile-responsive #riotbar-account .riotbar-anonymous-link[data-riotbar-link-id=login] {
+    display: none !important;
+  }
+}

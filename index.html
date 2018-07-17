@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <style type="text/css">
+        .cursor{
+            cursor:pointer;
+        }
+        a:visited{
+            color:
+        }
+		
+		div#bs-example-navbar-collapse-1{position: relative}
+		
+		img#img1{position: absolute; top:15px; }
+		img#img2{position: absolute; top:15px; left:100%;}
+		
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+
+    <title>DaST - Data Science and Technologies</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+    
+    <script>
+        var esiste=false;
+		function newDiv2(){
+		 if(esiste){
+                esiste = false;
+                $("#newDiv").remove();
+                
+            }else{
+                $("#teaching").append("<div id='newDiv'> <br> Secondo esempio div <p>questo fa riferimento a teaching</p></div>");
+				esiste=true;
+            }
+            
+        }
+		
+        function newDiv(){
+           if(esiste){
+                esiste = false;
+                $("#newDiv").remove();
+                
+            }else{
+                $("#research").append("<div id='newDiv'>Testo d'esempio</div>");
+                esiste=true;
+            }
+         }   
+        	function hpi(){
+			window.open("https://hpi.de/en/");
+		}
+        	
+        function datatonix(){
+			window.open("http://www.datonix.it/");
+		}
+        
+        function newPage(){
+            window.open("collegamentiEsterni//secondaPagina.html");
+        }
+		
+		function news(){
+		window.open("collegamentiEsterni//news.html");
+		}
+		
+			
+		
+		function randImg() {
+		var foto=new Array()
+		foto[0]="img/about/img11.png"
+		foto[1]="img/about/img21.png"
+		foto[2]="img/about/img31.png"
+		foto[3]="img/about/img41.png"
+		foto[4]="img/about/img51.png"
+		
+		i=Math.floor(Math.random() * (foto.length))
+		document.getElementById("immagine").src=foto[i];
+		
+		}
+		
+		function randString(){
+		var foto=new Array()
+		foto[0]="img/about/img11.png"
+		foto[1]="img/about/img21.png"
+		foto[2]="img/about/img31.png"
+		foto[3]="img/about/img41.png"
+		foto[4]="img/about/img51.png"
+		var stringa= ["pQAvP7","6BfZtd","swFtCn","6acQNY","SqXwFF"];
+		var str="";
+		var i;
+		for (i=0; i<stringa.length; i++){
+			if(document.getElementById("immagine").src=foto[i]){
+				str=stringa[i];
+				//stringa.length+1;
+			
+			
+			}
+		}
+		return str;
+		}
+		
+
+		
+    </script>
+	
+	<script type="text/javascript">
+function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'it',autoDisplay: false}, 'google_translate_element2');}
+</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
+/* ]]> */
+</script>
+
+	<script language="Javascript">
+
+
+	function isnum(obj) {
+	var num_len = document.forms["contactForm"].phone.value.length;
+	if (isNaN(obj.value) || parseInt(obj.value)<0 || parseInt(obj.value) > 9999999999)
+
+	{
+	$('#success').html("<div class='alert alert-danger'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
+                    $('#success > .alert-danger')
+                        .append("<strong>Inserisci solo un numero valido di telefono!. </strong>");
+					$('#success > .alert-danger').append('</div>');
+      
+                    $('#contactForm').trigger("reset");
+	//alert('Nel campo è possibile immettere solo numeri!');
+	obj.value="";
+	obj.focus();
+	}
+	
+}
+
+function formValid() {
+		
+    	var name_len = document.forms["contactForm"].name.value.length;
+        var message_len = document.forms["contactForm"].message.value.length;
+		var codice1= document.getElementById("captcha").innerText=randString();
+		var codice = document.forms["contactForm"].captcha.value;
+		 if (codice != codice1 ){
+					alert("Il codice di sicurezza è errato!");
+					document.forms["contactForm"].captcha.value = "";
+					document.forms["contactForm"].captcha.focus();
+				}
+		else{
+
+		
+		//var messaggio=document.getElementById("message");
+    	if (name_len > 25 || name_len<3) {
+    		$('#success').html("<div class='alert alert-danger'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
+                    $('#success > .alert-danger')
+                        .append("<strong>Campo Nome compreso tra 3 e 25 caratteri alfanumerici!. </strong>");
+					$('#success > .alert-danger').append('</div>');
+      
+                    $('#contactForm').trigger("reset");
+    	} else
+
+        if (message_len >150 || message_len<3 ) {
+    		$('#success').html("<div class='alert alert-danger'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
+                    $('#success > .alert-danger')
+                        .append("<strong>Campo Messaggio compreso tra 3 e 150 caratteri alfanumerici!. </strong>");
+					$('#success > .alert-danger').append('</div>');
+      
+                    $('#contactForm').trigger("reset");
+				}
+			}
+		
+
+    }
+	
+	
+</script>
+<script type="text/javascript">
+	function normalOnly(oToCheckField, oKeyEvent, sMode) {
+	var num_len= document.forms["contactForm"].phone.value.length;
+		var nChar = (oKeyEvent || /* IE */ window.event || { charCode: 0 }).charCode, rFilter;
+		
+		switch (sMode) {
+		case "normal": rFilter = /[a-z0-9\s]/i; break;
+		case "number": rFilter = /\d/; break;
+		default: return true; // questa riga si può eliminare
+		}
+		
+		// alert("Il codice del carattere \u00E8: " + nChar + ". Il carattere digitato \u00E8: \"" + String.fromCharCode(nChar) + "\".");
+		return nChar === 0 || rFilter.test(String.fromCharCode(nChar));
+}
+</script>
+	
+</head>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">DaST Lab</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-center">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Mission</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">News</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#clients">Collaborations</a>
+                    </li>
+					
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+					
+					<li>
+					
+					<!-- GTranslate: https://gtranslate.io/ -->
+<a href="#" onclick="doGTranslate('it|en');return false;" title="English" class="gflag nturl" style="background-position:-500px -100px;">
+<img id="img1" src="img/about/en.png" class="img-responsive " height="25" width="25" alt="English" /></a>
+<!--<a href="#" onclick="doGTranslate('it|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;">
+<img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="French" /></a><a href="#" onclick="doGTranslate('it|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="German" /></a>--><!--<a href="#" onclick="doGTranslate('it|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Portuguese" /></a><a href="#" onclick="doGTranslate('it|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian" /></a><a href="#" onclick="doGTranslate('it|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Spanish" /></a>-->
+
+<!--<style type="text/css">
+
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+
+</style>-->
+
+<!--<br /><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="it|af">Afrikaans</option><option value="it|sq">Albanian</option><option value="it|ar">Arabic</option><option value="it|hy">Armenian</option><option value="it|az">Azerbaijani</option><option value="it|eu">Basque</option><option value="it|be">Belarusian</option><option value="it|bg">Bulgarian</option><option value="it|ca">Catalan</option><option value="it|zh-CN">Chinese (Simplified)</option><option value="it|zh-TW">Chinese (Traditional)</option><option value="it|hr">Croatian</option><option value="it|cs">Czech</option><option value="it|da">Danish</option><option value="it|nl">Dutch</option><option value="it|en">English</option><option value="it|et">Estonian</option><option value="it|tl">Filipino</option><option value="it|fi">Finnish</option><option value="it|fr">French</option><option value="it|gl">Galician</option><option value="it|ka">Georgian</option><option value="it|de">German</option><option value="it|el">Greek</option><option value="it|ht">Haitian Creole</option><option value="it|iw">Hebrew</option><option value="it|hi">Hindi</option><option value="it|hu">Hungarian</option><option value="it|is">Icelandic</option><option value="it|id">Indonesian</option><option value="it|ga">Irish</option><option value="it|it">Italian</option><option value="it|ja">Japanese</option><option value="it|ko">Korean</option><option value="it|lv">Latvian</option><option value="it|lt">Lithuanian</option><option value="it|mk">Macedonian</option><option value="it|ms">Malay</option><option value="it|mt">Maltese</option><option value="it|no">Norwegian</option><option value="it|fa">Persian</option><option value="it|pl">Polish</option><option value="it|pt">Portuguese</option><option value="it|ro">Romanian</option><option value="it|ru">Russian</option><option value="it|sr">Serbian</option><option value="it|sk">Slovak</option><option value="it|sl">Slovenian</option><option value="it|es">Spanish</option><option value="it|sw">Swahili</option><option value="it|sv">Swedish</option><option value="it|th">Thai</option><option value="it|tr">Turkish</option><option value="it|uk">Ukrainian</option><option value="it|ur">Urdu</option><option value="it|vi">Vietnamese</option><option value="it|cy">Welsh</option><option value="it|yi">Yiddish</option></select>
+-->
+					
+					</li>
+				<li>
+				<a href="#" onclick="doGTranslate('it|it');return false;" title="Italian" class="gflag nturl" > <img id="img2" src="img/about/ita.gif" class="img-responsive " height="25" width="25" alt="Italian" /></a>
+				</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header style="background-image: url('./img/Tube.png');">
+        <div class="container">
+            <div class="intro-text" style="padding-top: 150px;">
+                <div class="intro-lead-in">Welcome To Our Lab!</div>
+                <div class="intro-heading">Data Science and Technologies</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Mission</h2>
+                    <p class="text-muted text-align" style="text-align: justify;">Il laboratorio di Data Science and Technologies effettua ricerche interdisciplinari su metodi e tecnologie per estrarre conoscenza da dati con livelli eterogenei di strutturazione, incluso il linguaggio naturale. In particolare, si affrontano problematiche relative all'estrazione ed organizzazione di dati di vario genere, incluso dati complessi, quali ad esempio dati multimediali, nonché problematiche di data preparation, data mining, machine learning e big data, anche attraverso il ricorso a tecniche di Intelligenza Artificiale. Particolare attenzione è rivolta alle tecniche di visualizzazione dei dati, nonché alle tecniche di linguaggi visuali in grado di semplificare l'utilizzo da parte di utenti finali di complesse tecnologie di elaborazione dati o di semplificare la progettazione ed implementazione di applicazioni web data intensive.</p><br/>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4" id="research">
+                    <span class="fa-stack fa-4x cursor" onclick="newDiv()">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Research</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4" id="teaching">
+                    <span class="fa-stack fa-4x cursor" onclick="newDiv2()">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Teaching</h4>
+                    <a href="https://docenti.unisa.it/004281/curriculum"><p class="text-muted">Prof. Giuseppe Polese</p></a>
+                    <a class="text-muted" href="https://docenti.unisa.it/005087/curriculum">Prof. Vincenzo Deufemia</a> 
+                </div>
+                <div class="col-md-4" onclick="newPage()">
+                    <span class="fa-stack fa-4x cursor">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Software</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+				</div>
+				</div>
+				<div class="container">
+           
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+				<div class="panel panel-primary">
+				<div class="panel-body">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/codit.jpg" class="img-responsive" style="width:100%" style="height:100%" alt=""  >
+                    </a>
+					</div>
+                   <div class="panel-footer text-center"> <h4>CoDIT</h4></div>
+				   <p class="text-muted text-center">Data Integration</p>
+					</div>
+                       
+                        
+                    
+                </div>
+                <div class="col-sm-4 portfolio-item">
+				<div class="panel panel-primary">
+				<div class="panel-body">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/development3.jpg"  class="img-responsive" style="width:100%" alt=""  >
+                    </a>
+						</div>
+						
+                    <div class="panel-footer text-center">   <h5>Five Steps</h5> </div>
+                      <p class="text-muted text-center">End User Development</p>
+				
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+				<div class="panel panel-primary">
+				<div class="panel-body">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/rfd.jpg" class="img-responsive" style="width:100%" alt="" >
+                    </a>
+					</div>
+                     <div class="panel-footer text-center"> 
+                        <h4>RFDs</h4> </div>
+                        <p class="text-muted text-center">Functional Dependecies</p>
+                    </div>
+                </div>
+				</div>
+				</div>
+				
+				<div class="container">
+				<div class="row">
+                <div class="col-sm-4 portfolio-item">
+				<div class="panel panel-primary">
+				<div class="panel-body ">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        
+                        <img class="img-responsive" src="img/portfolio/intent2.jpg" style="width:100%" alt="" >
+                    </a>
+					</div>
+					
+                   <div class="panel-footer text-center"> 
+                        <h5><b>User Intent Undestanding</b></h5> </div>
+                        <p class="text-muted text-center">Data Mining</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+				<div class="panel panel-primary">
+				<div class="panel-body">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                       
+                        <img src="img/portfolio/clinicalRecord.jpg" class="img-responsive" style="width:100%" alt="">
+                    </a>
+					</div>
+					<br>
+                    <div class="panel-footer text-center"> 
+                        <h4>Disease Recognition</h4> </div>
+                        <p class="text-muted text-center">Knowledge Reprensentation</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+				<div class="panel panel-primary">
+				<div class="panel-body">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/bild_1.gif" class="img-responsive" style="width:100%" alt="" >
+                    </a>
+					</div>
+                     <div class="panel-footer text-center"> 
+                        <h4>Video Undestanding</h4> </div>
+
+                        <p class="text-muted text-center">Knowledge Representation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">News</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/WIMS.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>May 2017</h4>
+                                    <h4 class="subheading">Evolutionary Mining of Relaxed Dependencies from Big Data Collections</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">L. Caruccio, V. Deufemia, G. Polese<br>
+									This paper has been accepted at the 07th ACM International Conference on Web Intelligence, Mining and Semantics (DSMM 2017). <br>June 19-22, 2017, Amantea, Italy.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/sebd.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>April 2017</h4>
+                                    <h4 class="subheading">A genetic algorithm to discover relaxed functional dependencies from data</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">L. Caruccio, V. Deufemia, G. Polese<br>
+									This paper has been accepted at the 25th Italian Symposium on Advanced Database Systems (SEBD 2017). <br>June 25-29, 2017, Squillace Lido (Catanzaro), Italy.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2012</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image cursor" onclick="news()">
+                                <h3><br>Read
+                                    <br>More</h3>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/polese.png" class="img-responsive img-circle" alt="">
+                        <h4>Giuseppe Polese</h4>
+						<h6>Associate Professor</h6>
+                        <p class="text-muted">Scientific Coordinator</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://docenti.unisa.it/004281/home"><img src="img/about/external.png" class="img-responsive img-centered img-circle" alt=""></a>
+                            </li>
+                           <!-- <li><a href="mailto:gpolese@unisa.it"><i class="fa fa-send"></i></a>
+                            </li> -->
+                            <li><a href="https://orcid.org/0000-0002-8496-2658"><img src="img/logos/orcid.gif" class="img-responsive img-centered img-circle" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/deufemia1.png" class="img-responsive img-circle" alt="">
+                        <h4>Vincenzo Deufemia</h4>
+						<h6>Associate Professor</h6>
+                        <p class="text-muted">Member</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://docenti.unisa.it/005087/home"><img src="img/about/external.png" class="img-responsive img-centered img-circle" alt=""></a>  <!--<i class="fa fa-external-link" >-->
+                            </li>
+                           <!-- <li><a href="mailto:deufemia@unisa.it"><i class="fa fa-send"></i></a>
+                            </li> -->
+                            <li><a href="https://orcid.org/0000-0002-6711-3590"><img src="img/logos/orcid.gif" class="img-responsive  img-circle" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/caruccio1.png" class="img-responsive img-circle" alt="">
+                        <h4><a href="#portfolioModal5"class="portfolio-link" data-toggle="modal" style="color:black">Loredana Caruccio</a></h4>
+                        <h6>PhD Student</h6>
+						<p class="text-muted">Member</p>
+                        <ul class="list-inline social-buttons">
+                            <!--<li><a href="#"><i class="fa fa-external-link"></i></a>
+                            </li>-->
+                           <!-- <li><a href="mailto:lcaruccio@unisa.it"><i class="fa fa-send"></i></a>
+                            </li> -->
+                            <li><a href="https://orcid.org/0000-0002-2418-1606"> <img src="img/logos/orcid.gif" class="img-responsive img-centered img-circle" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+	<section id=clients>
+    <aside class="clients">
+        <div class="container">
+			<div class="col-lg-12 text-center">
+			<h2 class="section-heading">Collaborations</h2>
+			</div>
+            <div class="row">
+			
+                <div class="col-md-3 col-sm-5 text-center cursor">
+                    
+                        <img src="img/logos/datonix.png" class="img-responsive img-centered" alt="" onclick="datatonix()">
+                    
+                </div>
+                <div class="col-md-3 col-sm-6 cursor">
+                 
+                        <img src="img/logos/hpi.png" class="img-responsive img-centered" alt="" onclick="hpi()">
+                    
+                </div>
+              <!--  <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>-->
+            </div>
+        </div>
+    </aside>
+	</section>
+
+    <!-- Contact Section -->
+    <section id="contact"style="background-image: url('./img/unisa.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Dast Lab @ University of Salerno<br>via Giovanni Paolo II, 132<br> 84084 Fisciano (SA), Italy.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" name="name" onpaste="return (false)" onkeypress="return normalOnly(this,event,'normal');"  required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" name="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" onblur="isnum(this)" id="phone" name="phone" >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" name="message" onkeypress="return normalOnly(this,event,'normal');" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+							
+							'
+							<div class="col-lg-12" >
+							
+							<img src="img/about/img11.png"  id="immagine"> <span class="mand"> &rarr; </span><input type="text"  id="captcha" name="captcha" size="6" maxlength="6" class="text"/>
+							<div id="risultato" > 
+							
+							</div>
+							     <a href="javascript:randImg();" title="Reload Image" ><img src="img/about/icon-reload.gif" alt="Reload Image" border="0"  /></a> Reload for different image text 
+							</div>
+							
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" onclick="formValid()" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div id="google_translate_element2" style="display:none "></div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2014</li>
+                                    <li>Client: Round Icons</li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Heading</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+	
+
+</body>
+
+</html>
