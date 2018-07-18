@@ -22,7 +22,7 @@ $(function() {
 		
 	
             $.ajax({
-                url: "https://github.com/rafyluc/rafyluc.github.io/blob/master/js/invioDati.php",
+                url: "C://xampp//htdocs//invioDati.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -30,7 +30,7 @@ $(function() {
                     email: email,
                     message: message
                 },
-                
+                cache: false,
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
