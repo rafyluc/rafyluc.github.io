@@ -1,0 +1,285 @@
+@import url("https://www3.almalaurea.it/include/alma_srv/css/bootstrap.min.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/bootstrap-theme.min.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/bootstrap.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/system.base.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/local.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/contextual.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/field.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/footer_sitemap.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/views.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/ckeditor.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/admin_menu.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/admin_menu_toolbar.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/shortcut.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/colorbox_style.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/ctools.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/book_made_simple.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/font-awesome.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/base.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/default.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/compatibility.css");
+			/*@import url("https://www3.almalaurea.it/include/alma_srv/css/external.css");*/
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/rrssb.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/style.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/dd_after.css");
+			@import url("https://www3.almalaurea.it/include/alma_srv/css/global.css");
+/*
+@import url("https://pp.almalaurea.it/sites/almalaurea.it/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css");
+@import url("https://pp.almalaurea.it/sites/almalaurea.it/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css");
+@import url("https://pp.almalaurea.it/modules/overlay/overlay-parent.css");
+@import url("https://pp.almalaurea.it/sites/almalaurea.it/modules/calendar/css/calendar_multiday.css");
+@import url("https://pp.almalaurea.it/sites/almalaurea.it/modules/date/date_api/date.css");
+@import url("https://pp.almalaurea.it/sites/almalaurea.it/modules/date/date_popup/themes/datepicker.1.7.css");
+*/
+
+/*****************************/
+/* DEFINIZIONE ELEMENTI BASE */
+/*****************************/
+
+
+
+
+
+
+/************************************/
+/* DEFINIZIONE ELEMENTI PARTICOLARI */
+/************************************/
+
+#main 
+{
+	min-height: 450px;
+}
+
+
+/**********/
+/* TITOLI */
+#main .title_container
+{
+	margin-bottom: 1em;
+}
+#main .title_container.yellow
+{
+	background: url("/img/util/bg_box_home_spalla_dx_yellow.gif") repeat-x scroll left bottom #fff;
+}
+#main .title_container p
+{
+	margin: 0 0 8px 10px;
+}
+
+#main div.yellow {
+    border-bottom: none;
+    border-top: none;
+}
+#main h1,
+#main .titolo,
+#main .titolo2
+{
+	font-family: "Times New Roman",Serif;
+	font-size: 30px;
+	line-height: 33px;
+	font-weight: normal;
+	margin: 11px 0 0 10px;
+	letter-spacing: 0;
+	text-transform: none;
+	color: #333;
+		/*padding: 0 0 13px;*/
+}
+#main .title_container h1 {
+	margin-bottom: 0;
+}
+#main .titolo3
+{
+	font-size: 13px; 
+	color: #363767; 
+	font-weight: bolder;
+}
+
+
+
+
+
+
+/**************************/
+/*  LISTE E PUNTI ELENCO  */
+#section-header ul,
+#section-header ul li
+{
+	list-style: none outside none;
+}
+
+
+a.visualizza,
+a.visualizza:link,
+a.visualizza:visited
+{
+	background: url("/img/icons/ico_read_more.gif") no-repeat scroll left center transparent;
+	color: #333;
+	font-weight: bold;
+	padding: 3px 0px 3px 10px; 
+	white-space: nowrap;
+ 	margin-bottom: 10px;
+}
+a.visualizza:hover
+{
+	text-decoration: underline; 
+}
+
+
+/************************/
+/*       TABELLE        */
+td, th {
+	padding: 4px 8px;
+	vertical-align: middle;
+}
+th {
+	border-bottom: 3px solid #ccc;
+	padding-right: 1em;
+	text-align: left;
+}
+
+
+/************************/
+/*  PULSANTI E BOTTONI  */
+input.pulsante, 
+a.pulsante,
+a.bottone,
+a.button,
+fieldset.bottone input, 
+input.DXpulsante, 
+input.pulsanteDX,
+input.SXpulsante,
+input.pulsanteSX, 
+input.frecciaDX
+{
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #222222;
+	background-color: #e9e9e9;
+	background-image: none;
+	background-position: 95% 3px;
+	border: 1px solid #E0E0E0;
+	border-radius: 0 0 0 0;
+	margin: 0;
+	padding: 4px 10px; 
+	cursor: pointer;
+}
+input.pulsante:hover, 
+a.pulsante:hover,
+a.bottone:hover,
+a.button:hover,
+fieldset.bottone input:hover, 
+input.DXpulsante:hover, 
+input.pulsanteDX:hover,
+input.pulsanteSX:hover, 
+input.SXpulsante:hover,
+input.frecciaDX:hover
+{
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #333;
+}
+
+fieldset.bottone input:hover, 
+input.DXpulsante:hover, 
+input.pulsanteDX:hover,
+input.pulsanteSX:hover, 
+input.SXpulsante:hover,
+input.frecciaDX:hover
+{
+	background-image: url("/img/icons/ico_arrow_style_button_dx.png");
+}
+fieldset.bottone input:hover, 
+input.DXpulsante:hover, 
+input.pulsanteDX:hover,
+input.pulsanteSX:hover, 
+input.SXpulsante:hover,
+input.frecciaDX:hover
+{
+	background: url("/img/icons/ico_arrow_style_button_dx.png") no-repeat scroll 90% -12px #333;
+}
+
+a.vai,
+a.vai:link,
+a.vai:visited,
+a .vai,
+a:link .vai,
+a:visited .vai,
+a.freccia,
+a.freccia:link,
+a.freccia:visited,
+div.guida a,
+div.guida a:link,
+div.guida a:visited
+{
+	background: url("/img/icons/ico_read_more.gif") no-repeat scroll right center transparent;
+	color: #333;
+	font-weight: bold;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+a.vai:hover, 
+a .vai:hover,
+a.freccia:hover,
+div.guida a:hover
+{
+	text-decoration: underline; 
+}
+
+
+
+
+/***********/
+/*  POPUP  */
+body.popup { 
+	margin:5px 15px; 
+	background: none repeat-x scroll left top #fff;
+	min-width: 100px;
+}
+body.popup #dettaglioannuncio,
+body.popup #main
+{
+	display: block;
+	float: none;
+	clear: both;
+	margin: 10px;
+}
+
+body.popup #chiudi {
+	float: right;
+}
+
+/* popup almalaurea */
+#header_popup {
+	height: 80px;
+	margin: 5px;
+	padding: 0;
+	background: url("/include/alma_srv/pop-up.png") 0 0 no-repeat transparent;
+}
+
+
+
+
+/**********************/
+/*  CLASSI GENERICHE  */
+.titoloform { font-size: 12pt; color: #4E4688;}
+.font2	{font-size: 10px; color: black;}
+.font3	{font-size: 10px; color: white;}
+.fontwhite	{font-size: 12px; color: white}
+.arancio	{font-size: 10px; margin-right: 8px; margin-left: 8px;}
+.profiloWhite	{color: white;}
+#nascosto {
+	display: none; font-size: 11px
+}
+
+
+/*************************************************/
+/*********  IFRAME PER PAGINE STATICHE ***********/
+
+#content-iframe
+{
+	height: auto;
+	min-height: 600px;
+}
